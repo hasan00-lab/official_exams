@@ -2,8 +2,8 @@
 import React, { useEffect, useMemo, useState } from "react";
 import "./styles.css";
 
-const API = "http://localhost:5000/api";
-const SERVER = "http://localhost:5000";
+const API = "/api";
+const SERVER = "";
 
 const branchInfo = {
   LS: {
